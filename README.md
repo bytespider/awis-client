@@ -8,5 +8,5 @@
 <?php
 
 $client = new AwisClient('<IAM Access Key>', '<IAM Access Secret>');
-$client->getUrlInfo('yahoo.com');
+$response = $client->getUrlInfo('yahoo.com'); // PSR-7 Response
 ```
