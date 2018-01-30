@@ -8,5 +8,5 @@
 <?php
 
 $client = new AwisClient('<IAM Access Key>', '<IAM Access Secret>');
-$client->getUrlInfor('yahoo.com');
+$client->getUrlInfo('yahoo.com');
 ```
