@@ -57,7 +57,7 @@ class AwisClient
         ]);
     }
 
-    public function getCategoryBrowse($url, $responseGroup = 'Categories', $path, $descriptions = 'True')
+    public function getCategoryBrowse($url, $path, $responseGroup = 'Categories', $descriptions = 'True')
     {
         return $this->makeRequest([
             'Action'        => 'CategoryBrowse',
